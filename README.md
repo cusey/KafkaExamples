@@ -18,7 +18,7 @@ height="150px"/>
 
 5. Create two folders C:\kafka_2.12-2.2.0\data\zookeeper and C:\kafka_2.12-2.2.0\data\kafka
 
-6. Change the following line code in C:\kafka_2.12-2.2.0\config\zookeeper.properties file
+6. Change the following line code in C:\kafka_2.12-2.2.0\config\zookeeper.properties file. You have to change the bachslash to forwardslash in the windows path. 
 
 ```
 dataDir=C:/kafka_2.12-2.2.0/data/zookeeper
