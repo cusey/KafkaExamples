@@ -37,6 +37,13 @@ C:\kafka_2.12-2.2.0>zookeeper-server-start.bat config\zookeeper.properties
 dataDir=C:/kafka_2.12-2.2.0/data/kafka
 ```
 
+9. Open new command line window and enter in the following commands.
+
+```
+C:\Windows\System32>cd C:\kafka_2.12-2.2.0
+
+C:\kafka_2.12-2.2.0>kafka-server-start.bat config\server.properties
+```
 
 ## Authors
 * John Cusey - CuseyHub  
