@@ -23,10 +23,12 @@ height="150px"/>
 ```
 dataDir=C:/kafka_2.12-2.2.0/data/zookeeper
 ```
-7. Open Windows Command Line type the following commands.
+7. Open Windows Command Line type the following commands. Must change directory to kafka folder.
 
 ```
-> zookeeper-server-start.bat config\zookeeper.properties
+C:\Windows\System32>cd C:\kafka_2.12-2.2.0
+
+C:\kafka_2.12-2.2.0>zookeeper-server-start.bat config\zookeeper.properties
 ```
  
 ## Authors
