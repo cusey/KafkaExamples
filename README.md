@@ -26,7 +26,7 @@ dataDir=C:/kafka_2.12-2.2.0/data/zookeeper
 7. Open Windows Command Line type the following commands.
 
 ```
-> zookeeper-server-start.bat config\zookeeper.properties 
+> zookeeper-server-start.bat config\zookeeper.properties
 ```
  
 ## Authors
