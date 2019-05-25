@@ -30,7 +30,14 @@ C:\Windows\System32>cd C:\kafka_2.12-2.2.0
 
 C:\kafka_2.12-2.2.0>zookeeper-server-start.bat config\zookeeper.properties
 ```
- 
+
+8. Change the following line code in C:\kafka_2.12-2.2.0\config\server.properties file. You have to change the bachslash to forwardslash in the windows path.
+
+```
+dataDir=C:/kafka_2.12-2.2.0/data/kafka
+```
+
+
 ## Authors
 * John Cusey - CuseyHub  
 
