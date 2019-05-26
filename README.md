@@ -7,7 +7,7 @@ src="https://github.com/cusey/ImageForWiki/blob/master/Logos/ApacheKafka.PNG"
 alt="Apache Kafka" 
 height="150px"/>  
 
-## Starting Kafka    
+## Setting Up Kafka    
 1. Must have install JDK 1.8. Kafka will not work with any other version of the JDK.
 
 2. Download the Kafka zip file at [kafka_2.12-2.2.0.tgz ](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.0/kafka_2.12-2.2.0.tgz)
@@ -38,6 +38,23 @@ dataDir=C:/kafka_2.12-2.2.0/data/kafka
 ```
 
 9. Open new command line window and enter in the following commands.
+
+```
+C:\Windows\System32>cd C:\kafka_2.12-2.2.0
+
+C:\kafka_2.12-2.2.0>kafka-server-start.bat config\server.properties
+```
+## Starting Kafka 
+
+1. To start Zookeeper Open Windows Command Line type the following commands. Must change directory to kafka folder.
+
+```
+C:\Windows\System32>cd C:\kafka_2.12-2.2.0
+
+C:\kafka_2.12-2.2.0>zookeeper-server-start.bat config\zookeeper.properties
+```
+
+2. To start Kafka open **NEW** command line window and enter in the following commands.
 
 ```
 C:\Windows\System32>cd C:\kafka_2.12-2.2.0
