@@ -82,7 +82,7 @@ john@ubunt:~/kafka_2.12-2.20$kafka-server-start.sh config/server.properties
 3. Test Kakfa in another termial window
 
 ```
-john@ubunt:~$ cd kafka_2.12-2.20
+john@ubunt:~$ cd kafka_2.12-2.20/
 john@ubunt:~/kafka_2.12-2.20$ kafka-topics.sh 
 ```
 
