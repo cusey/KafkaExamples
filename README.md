@@ -67,14 +67,14 @@ C:\kafka_2.12-2.2.0>kafka-server-start.bat config\server.properties
 1. Start Zookeeper
 
 ```
-john@ubunt:~$ cd kafka_2.12-2.20
+john@ubuntu:~$ cd kafka_2.12-2.2.0/
 john@ubunt:~/kafka_2.12-2.20$ bin/zookeeper-server-start.sh config/zookeeper.properties  
 ```
 
 2. Start Kakfa in another termial window      
 
 ```
-john@ubunt:~$ cd kafka_2.12-2.20
+john@ubuntu:~$ cd kafka_2.12-2.2.0/
 john@ubunt:~/kafka_2.12-2.20$kafka-server-start.sh config/server.properties 
 ```
 
